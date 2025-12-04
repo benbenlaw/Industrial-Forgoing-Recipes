@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.benbenlaw.ifrecipes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LatexProcessingUnitMixin",
+    "MagmaGeneratorMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
